@@ -1,0 +1,20 @@
+/*
+CSS de mi pagina web de Sergio 
+
+*/
+
+
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: rgb(71, 165, 42);
+    text-decoration-style: wavy;
+}
+h2 {
+    color: teal;
+    
+}
+a {
+    text-decoration: none;
+}
