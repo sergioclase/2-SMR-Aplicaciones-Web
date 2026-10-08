@@ -3,13 +3,23 @@ CSS de mi pagina web de Sergio
 
 */
 
+body {
+color: #333333;
+font-family: Arial, Helvetica, sans-serif;
+/*
+background-image: url("../img/Davante_Open_Graph_1080x1080_FP_generico.jpg");
+background-repeat: no-repeat:repeat ;
 
+Esto es para establecer el fondo de pantalla que queremos 
+*/
+}
 
 h1 {
     color: blue;
     text-decoration: underline;
     text-decoration-color: rgb(71, 165, 42);
     text-decoration-style: wavy;
+    text-align: center;
 }
 h2 {
     color: teal;
@@ -17,4 +27,36 @@ h2 {
 }
 a {
     text-decoration: none;
+}
+
+#titulo {
+    color: gray;
+    text-align: center;
+    font-style: italic;
+    
+}
+/* 
+. = class
+# = id 
+*/
+
+.favorito {
+    color: red;
+    font-weight: bold;
+
+}
+
+.listaA {
+    color: white;
+    background-color: teal;
+
+}
+.listaB {
+    color: white;
+    background-color: blueviolet;
+}
+
+.curso {
+    border: 2px solid teal;
+    
 }
