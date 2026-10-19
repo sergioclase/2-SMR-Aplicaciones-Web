@@ -5,30 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club de Informática SMR</title>
 
-    <link rel="stylesheet" href="Tema4\practicaEv2\css\estilos.css">
+    <link rel="stylesheet" href="css\estilos.css">
 </style>
 </head>
 
 <body>
    
-
-    <h1 id="cabecera">Club de Informática SMR</h1>
-    <p>Aprende, monta y repara con nosotros</p>
+    <div id="cabecera">
+    <h1>Club de Informática SMR</h1>
+    <p class="subtitulo">Aprende, monta y repara con nosotros</p>           <!-- He puesto el div para que el fondo y el centrado que he puesto le afecten al h1 y al texto y he puesto al parrafo el class para darle un estilo propio -->
+</div>
 
     <nav>
         <a href="index.html">Inicio</a>
         <a href="formulario.html">Inscripción</a>
         <a href="https://www.medac.es" target="_blank">MEDAC</a>
     </nav>
+<!-- Estoy organizando todo en cagitas para que este todo mas organizado y estetico a la hora de programar y visual -->
 
+    
+<div class="caja">                
     <h2>¿Quiénes somos?</h2>
     <img src="img/logo.jpg" alt="Logo del club" width="250">
     <p>Somos un grupo de alumnos y alumnas de Sistemas Microinformáticos y Redes
        que se reúne una tarde a la semana para aprender cosas que no siempre
        caben en el horario de clase: montar equipos, configurar redes, instalar
        servidores y crear páginas web.</p>
+
     <p>No hace falta saber nada para empezar. Solo traer ganas de aprender
        y, si puedes, tu propio portátil.</p>
+
+</div>
+
+<div class="caja"> 
 
     <h2>¿Qué hacemos?</h2>
     <ul>
@@ -39,6 +48,11 @@
         <li>Torneos de videojuegos en red local</li>
     </ul>
 
+    <div class="caja">
+
+
+        <div class="caja">
+
     <h2>Cómo apuntarte</h2>
     <ol>
         <li>Lee las actividades del trimestre.</li>
@@ -47,6 +61,10 @@
         <li>Ven el primer día al aula de informática.</li>
     </ol>
 
+    </div>
+
+
+    
     <h2>Próximas actividades</h2>
     <table>
         <caption>Calendario del primer trimestre</caption>
@@ -83,6 +101,10 @@
     </table>
 
     <hr>
+    <div id="pie">
+
     <p>© 2026 Club de Informática SMR · <a href="index.html">Volver al inicio</a></p>
+    </div>
+    
 </body>
 </html>
