@@ -1,0 +1,22 @@
+/* =========================================================
+   Práctica 1 — Hoja de estilos del Club de Informática SMR
+   Nombre y apellidos:
+   ========================================================= */
+
+/* Escribe aquí tu CSS. Recuerda: cada regla con un comentario
+   que explique, con tus palabras, para qué sirve. */
+
+/*Sergio de la Torre */
+  
+  body {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: blue;
+   background-color: rgb(253, 3, 66);
+  }
+
+    #cabecera {
+   background-color: brown;
+   color: white;
+   text-align: center;
+   padding: 30px;
+  }
