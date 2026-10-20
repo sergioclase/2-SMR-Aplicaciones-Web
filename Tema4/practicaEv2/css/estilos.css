@@ -117,7 +117,7 @@ ul {
 /* diferencio la lista numerada con otro color */
 ol {
     color: #12294a;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1
 }
 
@@ -179,7 +179,7 @@ form {
 /* pongo bordes, relleno y pongo separación a cada grupo que tiene el formulario */
 fieldset {
     border: 2px solid #007f76;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -234,7 +234,7 @@ button {
 
 
 /* pongo un fondo verde al botón de enviar */
-button[type="submit"] {
+button  [type="submit"] {
     background-color: #007f76;
 }
 
