@@ -155,23 +155,10 @@ caption {
 }
 
 
-/* doy un fondo diferente a las filas 1 y 3 para que quede mas estetico*/
-tr:nth-child(even) {
-    background-color: #e2ebf3;
-}
-
-
-/* resalto la fila sobre la que está el ratón y asi queda mas dinamico */
-tr:hover {
-    background-color: #9af2fd;
-}
-
-
-css
 /* lo centro el formulario y hago mas chico su tamaño */
 form {
     width: 90%;
-    max-width: 600px;
+    max-width: 500px;
     margin: 20px auto;
 }
 
