@@ -23,6 +23,8 @@ body {
     color: white;
     text-align: center;
     padding: 30px;
+    background-image: url(../img/pngtree-vibrant-synthwave-sunset-beach-with-neon-ocean-waves-and-palm-trees-image_20078993.webp);
+    background-repeat: no-repeat;
 }
 
 
@@ -258,3 +260,4 @@ button[type="reset"] {
 #pie a:hover {
     color: rgb(163, 8, 177);
 }
+
