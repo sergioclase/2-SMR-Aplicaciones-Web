@@ -23,6 +23,7 @@ body {
     color: white;
     text-align: center;
     padding: 30px;
+    background-image: url(../img/pngtree-vibrant-synthwave-sunset-beach-with-neon-ocean-waves-and-palm-trees-image_20078993.webp);
 }
 
 
@@ -117,7 +118,7 @@ ul {
 /* diferencio la lista numerada con otro color */
 ol {
     color: #12294a;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1
 }
 
@@ -155,19 +156,6 @@ caption {
 }
 
 
-/* doy un fondo diferente a las filas 1 y 3 para que quede mas estetico*/
-tr:nth-child(even) {
-    background-color: #e2ebf3;
-}
-
-
-/* resalto la fila sobre la que está el ratón y asi queda mas dinamico */
-tr:hover {
-    background-color: #9af2fd;
-}
-
-
-css
 /* lo centro el formulario y hago mas chico su tamaño */
 form {
     width: 90%;
@@ -179,8 +167,8 @@ form {
 /* pongo bordes, relleno y pongo separación a cada grupo que tiene el formulario */
 fieldset {
     border: 2px solid #007f76;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
     padding: 20px;
 }
 
@@ -234,7 +222,7 @@ button {
 
 
 /* pongo un fondo verde al botón de enviar */
-button[type="submit"] {
+button  [type="submit"] {
     background-color: #007f76;
 }
 
@@ -260,7 +248,7 @@ button[type="reset"] {
 }
 
 
-/* dejo claro el enlace del pie, esté visitado o no para que quede como a mi mejor me ha parecido */
+/* dejo claro el pie de enlace estes o no ahi para que sea mas comodo  */
 #pie a:link,
 #pie a:visited {
     color: #a8d8ff;
@@ -271,3 +259,4 @@ button[type="reset"] {
 #pie a:hover {
     color: rgb(163, 8, 177);
 }
+
